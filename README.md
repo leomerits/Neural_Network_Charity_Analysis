@@ -13,8 +13,10 @@ In this module we explored and implemented neural networks using the TensorFlow 
 ## Compiling, Training, and Evaluating the Model
 - How many neurons were selected and why
 - Achieved the target model?
+
 No I did not on the first attempt.
 - Steps to try and increase nodel performance
+
 I tried two more attempts increasing the nodes so as to increase model perfomance.
 
 # Summary: 
