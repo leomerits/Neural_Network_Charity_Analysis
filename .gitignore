@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Module Folder
+Module
+Resources
+charity_data.csv
+AlphabetSoupCharity_Attempt1.h5
+AlphabetSoupCharity_Attempt2.h5
+
 # Distribution / packaging
 .Python
 build/
