@@ -6,13 +6,16 @@ In this module we explored and implemented neural networks using the TensorFlow 
 - Software: Jupyter Notebook.
 # Results:
 ## Data Preprocessing
-- Target Variables
-- Features for Model Variable
-- Variables that are neither targets nor features that should be removed
+- Target Variables in my modudle is the  IS_SUCCESSFUL Column
+- Features for Model Variable in my model are every Column except for IS_SUCCESSFUL which is our target and the ones we will drop
+- Variables that are neither targets nor features that should be removed are are EIN, NAME because they will have little to no impact om our outcome
 
 ## Compiling, Training, and Evaluating the Model
-- How many neurons were selected and why
-- Achieved the target model?: No I did not on the first attempt.
+- I selected 2 hidden layers, the first layer had 80 neurons, the second has 30 and an output layer. The first and second hidden layer have the "relu" activation function and the activation function for the output layer is "sigmoid."
+
+![image](https://user-images.githubusercontent.com/34757498/151729727-509009ff-4bf6-4930-890a-6a6d3cea467d.png)
+
+- Achieved the target model?: No the model was not able to achieve the target model performance.
 Attempt1:
 
 ![Loss_Accuracy_1](https://user-images.githubusercontent.com/34757498/151644960-bfa6df4a-7329-4424-a1ef-a7aa26364ed2.png)
